@@ -1,0 +1,169 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0F172A;
+    color: white;
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: #1E293B;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38BDF8;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    min-height: 100vh;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 52px;
+}
+
+.hero-text h3 {
+    color: #38BDF8;
+    margin: 15px 0;
+}
+
+.hero-text p {
+    margin-top: 10px;
+}
+
+/* BUTTONS */
+button {
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background: #38BDF8;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #38BDF8;
+}
+
+/* IMAGE */
+.hero-image img {
+    width: 320px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.hero-image img:hover {
+    transform: scale(1.05);
+}
+
+/* SECTIONS */
+section {
+    padding: 80px;
+}
+
+/* SKILLS */
+.skills-box span {
+    display: inline-block;
+    background: #1E293B;
+    padding: 10px 15px;
+    margin: 8px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.skills-box span:hover {
+    background: #38BDF8;
+    color: black;
+}
+
+/* PROJECT CARDS */
+.project-card {
+    background: #1E293B;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(56, 189, 248, 0.3);
+}
+
+.project-card img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* EXPERIENCE */
+#experience div {
+    background: #1E293B;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+/* CAREER GOAL */
+#career {
+    background: #1E293B;
+    margin: 40px;
+    border-radius: 15px;
+}
+
+/* CONTACT ICONS */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin-right: 20px;
+    font-size: 28px;
+    color: white;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #38BDF8;
+    transform: scale(1.2);
+}
