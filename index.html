@@ -15,7 +15,7 @@
 
     <!-- NAVBAR -->
     <nav>
-        <h2 class="logo">Khushi.</h2>
+        <h2 class="logo">Khushi<span>.</span></h2>
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#career">Career Goal</a></li>
@@ -29,28 +29,32 @@
     <!-- HERO -->
     <section class="hero">
         <div class="hero-text">
+            <span class="eyebrow">Welcome to my portfolio</span>
             <h1>Khushi Sharma</h1>
             <h3>BCA Final-Year Student | Entry-Level Software Developer</h3>
-
             <p>
-                Passionate about building practical web applications and continuously 
-                learning modern technologies to solve real-world problems. 
+                Passionate about building practical web applications and continuously
+                learning modern technologies to solve real-world problems.
                 Skilled in Web Development, Python, SQL, and professional communication.
             </p>
-
-            <div class="buttons">
-                <a href="#projects"><button>View Projects</button></a>
-                <a href="assets/resume.pdf" download><button>Download Resume</button></a>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">
+                    <i class="fa-solid fa-code"></i> View Projects
+                </a>
+                <a href="assets/resume.pdf" download class="btn-outline">
+                    <i class="fa-solid fa-download"></i> Download Resume
+                </a>
             </div>
         </div>
 
         <div class="hero-image">
-            <img src="assets/profile.jpg" alt="Khushi Profile">
+            <img src="assets/profile.jpg" alt="Khushi Sharma">
         </div>
     </section>
 
     <!-- ABOUT -->
-    <section id="about">
+    <section id="about" class="reveal">
+        <p class="section-label">Get to know me</p>
         <h2>About Me</h2>
         <p>
             I am a dedicated and hardworking final-year BCA student with knowledge of HTML, CSS,
@@ -63,110 +67,187 @@
     </section>
 
     <!-- CAREER GOAL -->
-    <section id="career">
+    <section id="career" class="reveal">
+        <p class="section-label">What I'm aiming for</p>
         <h2>Career Goal</h2>
-        <p>
-            I am seeking an entry-level role in the IT industry where I can apply my technical knowledge,
-            improve my practical skills, and contribute effectively while continuously learning new technologies.
-        </p>
+        <div class="career-card">
+            <p>
+                I am seeking an entry-level role in the IT industry where I can apply my technical knowledge,
+                improve my practical skills, and contribute effectively while continuously learning new technologies.
+            </p>
+        </div>
     </section>
 
     <!-- SKILLS -->
-    <section id="skills">
+    <section id="skills" class="reveal">
+        <p class="section-label">What I work with</p>
         <h2>Technical Skills</h2>
         <div class="skills-box">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Python</span>
-            <span>SQL</span>
-            <span>DBMS</span>
-            <span>PostgreSQL</span>
-            <span>GitHub</span>
+            <span><i class="fa-brands fa-html5"></i> HTML</span>
+            <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+            <span><i class="fa-brands fa-js"></i> JavaScript</span>
+            <span><i class="fa-brands fa-python"></i> Python</span>
+            <span><i class="fa-solid fa-database"></i> SQL</span>
+            <span><i class="fa-solid fa-database"></i> DBMS</span>
+            <span><i class="fa-solid fa-server"></i> PostgreSQL</span>
+            <span><i class="fa-brands fa-github"></i> GitHub</span>
         </div>
     </section>
 
     <!-- PROJECTS -->
-    <section id="projects">
+    <section id="projects" class="reveal">
+        <p class="section-label">Things I've built</p>
         <h2>Projects</h2>
 
-        <div class="project-card">
-            <img src="assets/smart-city.png" alt="Smart City Explorer">
-            <h3>Smart City Explorer</h3>
-            <p>
-                Interactive map-based web application using HTML, CSS, JavaScript, and Leaflet.js 
-                to help users explore nearby services and locations.
-            </p>
-        </div>
+        <div class="projects-grid">
 
-        <div class="project-card">
-            <img src="assets/salon.png" alt="Salon Website">
-            <h3>Salon Website</h3>
-            <p>
-                Responsive salon website showcasing services, pricing, and appointment features 
-                with a clean and user-friendly interface.
-            </p>
-        </div>
+            <div class="project-card reveal">
+                <img src="assets/smart-city.png" alt="Smart City Explorer">
+                <div class="project-card-body">
+                    <h3>Smart City Explorer</h3>
+                    <p>
+                        Interactive map-based web application to help users explore
+                        nearby services and locations in real time.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Leaflet.js</span>
+                    </div>
+                </div>
+            </div>
 
-        <div class="project-card">
-            <img src="assets/url-shortener.png" alt="URL Shortener">
-            <h3>URL Shortener</h3>
-            <p>
-                Python-based tool to convert long URLs into short and manageable links,
-                improving usability and understanding of programming logic.
-            </p>
+            <div class="project-card reveal">
+                <img src="assets/salon.png" alt="Salon Website">
+                <div class="project-card-body">
+                    <h3>Salon Website</h3>
+                    <p>
+                        Responsive salon website showcasing services, pricing,
+                        and appointment features with a clean user interface.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <img src="assets/url-shortener.png" alt="URL Shortener">
+                <div class="project-card-body">
+                    <h3>URL Shortener</h3>
+                    <p>
+                        Python-based tool to convert long URLs into short, manageable
+                        links — great for usability and sharing.
+                    </p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
     <!-- EXPERIENCE -->
-    <section id="experience">
+    <section id="experience" class="reveal">
+        <p class="section-label">Where I've worked</p>
         <h2>Experience</h2>
 
-        <div>
-            <h3>Python Developer Virtual Internship</h3>
-            <p>CodeClause | March 2025 – April 2025</p>
-            <p>
-                Worked on Python-based tasks and projects, improving problem-solving skills 
-                and understanding of real-world application development.
-            </p>
+        <div class="experience-item reveal">
+            <div class="exp-dot"></div>
+            <div class="exp-content">
+                <h3>Python Developer Virtual Internship</h3>
+                <p class="exp-meta">CodeClause &nbsp;·&nbsp; March 2025 – April 2025</p>
+                <p>
+                    Worked on Python-based tasks and projects, improving problem-solving skills
+                    and understanding of real-world application development.
+                </p>
+            </div>
         </div>
 
-        <div>
-            <h3>Academic Project Experience</h3>
-            <p>2024 – Present</p>
-            <p>
-                Developed multiple projects in web development and Python, focusing on 
-                practical implementation and user-friendly design.
-            </p>
+        <div class="experience-item reveal">
+            <div class="exp-dot"></div>
+            <div class="exp-content">
+                <h3>Academic Project Experience</h3>
+                <p class="exp-meta">Self-directed &nbsp;·&nbsp; 2024 – Present</p>
+                <p>
+                    Developed multiple projects in web development and Python, focusing on
+                    practical implementation and user-friendly design.
+                </p>
+            </div>
         </div>
     </section>
 
     <!-- EDUCATION -->
-    <section id="education">
+    <section id="education" class="reveal">
+        <p class="section-label">My academic background</p>
         <h2>Education</h2>
-        <p>Bachelor of Computer Applications (2023 – 2026)</p>
-        <p>Galgotias University, Greater Noida</p>
-        <p>Currently in Final Year</p>
+
+        <div class="education-card reveal">
+            <h3>Bachelor of Computer Applications</h3>
+            <p class="edu-university">Galgotias University, Greater Noida</p>
+            <span class="edu-period">
+                <i class="fa-regular fa-calendar"></i>
+                2023 – 2026 &nbsp;·&nbsp; Final Year
+            </span>
+        </div>
     </section>
 
     <!-- CONTACT -->
-    <section id="contact">
+    <section id="contact" class="reveal">
+        <p class="section-label">Let's connect</p>
         <h2>Contact</h2>
 
-        <p>Email: khushisharma13144@gmail.com</p>
-        <p>Phone: 8826558620</p>
-        <p>Location: Delhi, India</p>
+        <div class="contact-grid">
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="contact-detail">
+                    <p class="label">Email</p>
+                    <p class="value">khushisharma13144@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="contact-detail">
+                    <p class="label">Phone</p>
+                    <p class="value">+91 8826558620</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="contact-detail">
+                    <p class="label">Location</p>
+                    <p class="value">Delhi, India</p>
+                </div>
+            </div>
+        </div>
 
         <div class="social-links">
             <a href="https://github.com/Khushisharma7891" target="_blank">
-                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-github"></i> GitHub
             </a>
-
             <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
             </a>
         </div>
     </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 <span>Khushi Sharma</span>. All rights reserved.</p>
+        <p>Designed & Built with <span>♥</span></p>
+    </footer>
 
     <!-- JS -->
     <script src="script.js"></script>
