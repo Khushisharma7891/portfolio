@@ -461,7 +461,42 @@ section h2 {
     box-shadow: 0 10px 30px rgba(99,179,237,0.12);
 }
 .skills-box span:hover::before { opacity: 1; }
-.skills-box span i { font-size: 16px; color: var(--accent); }
+.skills-box span i {
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+/* Official colors */
+.fa-python { color: #3776AB; }
+.fa-html5 { color: #E34F26; }
+.fa-css3-alt { color: #1572B6; }
+.fa-js { color: #F7DF1E; }
+.fa-react { color: #61DAFB; }
+.fa-git-alt { color: #F05032; }
+.fa-github { color: #ffffff; }
+
+.fa-database {
+    color: #336791; /* PostgreSQL */
+}
+
+.fa-leaf {
+    color: #47A248; /* MongoDB */
+}
+
+.fa-server {
+    color: #D4AF37; /* DBMS */
+}
+
+/* hover effect */
+.skills-box span:hover i {
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 8px rgba(255,255,255,0.2));
+}
+
+.skills-box span:hover i {
+    color: var(--accent2); /* Gold on hover */
+    transform: scale(1.12);
+}
 
 /* ══════════════════════════════════════════
    PROJECTS
