@@ -667,6 +667,13 @@ section h2 {
     padding: 6px 16px; border-radius: 40px;
 }
 
+.edu-skills{
+    font-size: 13px;
+    color: var(--text3);
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
 /* ══════════════════════════════════════════
    CONTACT
 ══════════════════════════════════════════ */
