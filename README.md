@@ -143,7 +143,7 @@ https://khushisharma7891.github.io/portfolio/
 
 
 **LinkedIn**  
-Add your LinkedIn profile URL
+https://www.linkedin.com/in/khushi-sharma-6601672b1
 
 ---
 
