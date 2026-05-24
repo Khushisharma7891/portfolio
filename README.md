@@ -1,60 +1,99 @@
+<div align="center">
+
 # Khushi Sharma — Portfolio Website
 
-A modern personal portfolio website built to showcase my skills, projects, technical background, and frontend development journey through a clean and premium user experience.
+### Modern Personal Portfolio • Frontend Development • UI/UX Focus
 
-**Live Website:**  
-https://khushisharma7891.github.io/portfolio/
+<p align="center">
+  <img src="YOUR_PORTFOLIO_SCREENSHOT_LINK" width="100%" alt="Portfolio Preview" />
+</p>
+
+<p align="center">
+A modern personal portfolio website built to showcase my skills, projects, technical background, and frontend development journey through a clean and professional user experience.
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Status-Live-111111?style=flat-square" />
+<img src="https://img.shields.io/badge/Frontend-Portfolio-111111?style=flat-square" />
+<img src="https://img.shields.io/badge/Responsive-Yes-111111?style=flat-square" />
+
+</p>
+
+### Live Website
+
+**https://khushisharma7891.github.io/portfolio/**
+
+</div>
 
 ---
 
-## Overview
+## About The Portfolio
 
-This portfolio represents my work, technical skills, projects, and development experience in a structured and visually professional way.
+This portfolio represents my work, technical skills, projects, and frontend development journey in a structured and visually professional way.
 
-The goal of this website is to create a strong first impression through:
+The purpose of this website is to create a strong first impression through a clean design system, thoughtful interactions, and an experience that reflects both technical and creative skills.
 
-- Premium UI/UX
-- Modern frontend aesthetics
-- Smooth interactions
+The portfolio focuses on:
+
 - Clean visual hierarchy
 - Professional presentation
-- Fully responsive experience
+- Responsive experience
+- Smooth interactions
+- Modern frontend aesthetics
+- Usability-focused design
 
-The portfolio maintains a minimal and modern design language while focusing on usability and elegant presentation.
+Rather than overcomplicating the experience, the website follows a minimal and modern approach while maintaining a polished visual identity.
 
 ---
 
 ## Design Direction
 
-The website follows a modern luxury tech-inspired aesthetic with emphasis on:
+The website follows a **modern tech-inspired design language** with emphasis on simplicity, readability, and visual balance.
+
+### Design Highlights
 
 - Glassmorphism-inspired UI
 - Clean dark visual experience
 - Smooth micro-interactions
-- Elegant typography
+- Elegant typography system
 - Soft visual depth
 - Premium card-based layouts
-- Professional spacing and alignment
-
-### Typography
-
-**Headings:** Sora  
-**Body Text:** Inter
-
-### Icons
-
-- Lucide Icons  
-- Font Awesome  
-- Clean SVG-based visuals
+- Consistent spacing and alignment
 
 ---
 
-## Features
+## Typography
+
+### Fonts Used
+
+**Headings** → Sora  
+**Body Text** → Inter
+
+The typography system was selected to maintain readability while giving the interface a clean and modern feel.
+
+---
+
+## Icons & Visual Assets
+
+<p>
+<img src="https://skillicons.dev/icons?i=figma" />
+</p>
+
+**Libraries & Assets**
+
+- Lucide Icons
+- Font Awesome
+- SVG-based visuals
+
+---
+
+## Key Features
 
 ### Premium Interface
 
 - Modern dark UI
-- Premium layout structure
+- Clean layout structure
 - Improved readability
 - Strong visual hierarchy
 - Consistent spacing system
@@ -73,9 +112,13 @@ Optimized for:
 - Desktop
 - Laptop
 - Tablet
-- Mobile devices
+- Mobile Devices
 
-### Portfolio Sections
+---
+
+## Portfolio Sections
+
+The portfolio includes the following sections:
 
 - Hero Section
 - About
@@ -91,9 +134,9 @@ Optimized for:
 
 ### Frontend
 
-- HTML5
-- CSS3
-- JavaScript
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js" />
+</p>
 
 ### Design & UI
 
@@ -102,13 +145,25 @@ Optimized for:
 - CSS Animations
 - Modern Typography System
 
+### Development Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=vscode,git,github,figma" />
+</p>
+
 ---
 
 ## Project Philosophy
 
-Rather than overcomplicating the experience, this portfolio focuses on presenting content through a clean, premium, and recruiter-friendly interface.
+The objective behind this portfolio was not to overload the experience with unnecessary complexity, but to present content in a clean, premium, and recruiter-friendly way.
 
-The objective is to maintain simplicity while delivering a polished frontend experience that reflects strong attention to UI design, responsiveness, and user experience.
+The focus remains on creating a polished frontend experience that reflects attention to:
+
+- UI Design
+- Responsiveness
+- User Experience
+- Visual Consistency
+- Performance
 
 ---
 
@@ -124,6 +179,8 @@ portfolio/
 │── README.md
 ```
 
+---
+
 ## Future Improvements
 
 Planned enhancements include:
@@ -138,13 +195,28 @@ Planned enhancements include:
 
 ## Contact
 
-**Portfolio Website**  
-https://khushisharma7891.github.io/portfolio/
+### Portfolio Website
 
+**https://khushisharma7891.github.io/portfolio/**
 
-**LinkedIn**  
-https://www.linkedin.com/in/khushi-sharma-6601672b1
+### LinkedIn
+
+**https://www.linkedin.com/in/khushi-sharma-6601672b1**
 
 ---
 
-**Designed & Developed by Khushi Sharma**
+## Author
+
+**Khushi Sharma**  
+Frontend Developer • UI/UX Enthusiast
+
+GitHub:  
+**https://github.com/khushisharma7891**
+
+---
+
+<div align="center">
+
+Designed & Developed by **Khushi Sharma**
+
+</div>
