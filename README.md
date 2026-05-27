@@ -5,7 +5,7 @@
 ### Modern Personal Portfolio • Frontend Development • UI/UX Focus
 
 <p align="center">
-  <img src="YOUR_PORTFOLIO_SCREENSHOT_LINK" width="100%" alt="Portfolio Preview" />
+  <img src="assets/web_ss.jpeg" />
 </p>
 
 <p align="center">
