@@ -5,7 +5,7 @@
 ### Modern Personal Portfolio • Frontend Development • UI/UX Focus
 
 <p align="center">
-  <img src="assets/web_ss.jpeg"  width="350"/ />
+  <img src="assets/web_ss.jpeg"  width="250"/ />
 </p>
 
 <p align="center">
