@@ -26,10 +26,6 @@ A modern personal portfolio website built to showcase my skills, projects, techn
 
 </div>
 
-## Website Preview
-
-![Portfolio Website](assets/web_ss.jpeg)
-
 ---
 
 ## About The Portfolio
