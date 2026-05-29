@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khushi Sharma | Portfolio</title>
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
@@ -35,13 +32,13 @@
             <p>
                 Passionate about building practical web applications and continuously
                 learning modern technologies to solve real-world problems.
-                Skilled in Web Development, Python, SQL, and professional communication.
+                Skilled in Web Development, Python, SQL, and Machine Learning.
             </p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn-primary">
                     <i class="fa-solid fa-code"></i> View Projects
                 </a>
-                <a href="assets/Khushi_Resume.pdf" download class="btn-outline">
+                <a href="assets/Khushi_Sharma.pdf" download class="btn-outline">
                     <i class="fa-solid fa-download"></i> Download Resume
                 </a>
             </div>
@@ -57,12 +54,17 @@
         <p class="section-label">Get to know me</p>
         <h2>About Me</h2>
         <p>
-            I am a dedicated and hardworking BCA Graduate with knowledge of HTML, CSS,
-            JavaScript, SQL, DBMS, and Python. I have hands-on experience in web development,
-            programming, and basic data-related concepts.
-            I enjoy building practical projects that improve user experience and solve real-world problems.
-            I am currently seeking an entry-level opportunity in the IT sector where I can apply my
-            technical skills, grow professionally, and contribute effectively to an organization.
+            I'm a BCA graduate from Galgotias University with a genuine interest in
+            building things for the web. I work with HTML, CSS, JavaScript, React, Python, and SQL,
+            and I've shipped real projects — from an ML-powered house price predictor to an
+            interactive Smart City Explorer map. I like solving problems that have a visible output,
+            and I'm always picking up something new along the way.
+        </p>
+        <p>
+            I've also interned as a Python Developer at Code Clause and worked as a Technical
+            Assistant at Vyas Computer & Academic Institute, where I handled real IT operations
+            and supported students with technical training. Currently looking for an entry-level
+            developer role where I can contribute, learn fast, and grow alongside a good team.
         </p>
     </section>
 
@@ -72,8 +74,10 @@
         <h2>Career Goal</h2>
         <div class="career-card">
             <p>
-                I am seeking an entry-level role in the IT industry where I can apply my technical knowledge,
-                improve my practical skills, and contribute effectively while continuously learning new technologies.
+                I want to work in a role where I'm writing real code and solving real problems —
+                not just tutorials or toy projects. I'm looking for a team that values curiosity
+                and gives junior developers room to grow. Whether that's frontend, backend, or
+                full-stack, I'm comfortable jumping in and figuring things out.
             </p>
         </div>
     </section>
@@ -83,28 +87,19 @@
         <p class="section-label">What I work with</p>
         <h2>Technical Skills</h2>
         <div class="skills-box">
-
-    <span><i class="fa-brands fa-python"></i> Python</span>
-
-    <span><i class="fa-brands fa-html5"></i> HTML</span>
-
-    <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
-
-    <span><i class="fa-brands fa-js"></i> JavaScript</span>
-
-    <span><i class="fa-brands fa-react"></i> React</span>
-
-    <span><i class="fa-solid fa-database"></i> PostgreSQL</span>
-
-    <span><i class="fa-solid fa-leaf"></i> MongoDB</span>
-
-    <span><i class="fa-brands fa-git-alt"></i> Git</span>
-
-    <span><i class="fa-brands fa-github"></i> GitHub</span>
-
-    <span><i class="fa-solid fa-server"></i> DBMS</span>
-
-</div>
+            <span><i class="fa-brands fa-python"></i> Python</span>
+            <span><i class="fa-brands fa-html5"></i> HTML5</span>
+            <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+            <span><i class="fa-brands fa-js"></i> JavaScript</span>
+            <span><i class="fa-brands fa-react"></i> React</span>
+            <span><i class="fa-solid fa-database"></i> PostgreSQL</span>
+            <span><i class="fa-solid fa-leaf"></i> MongoDB</span>
+            <span><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span><i class="fa-brands fa-github"></i> GitHub</span>
+            <span><i class="fa-solid fa-brain"></i> Machine Learning</span>
+            <span><i class="fa-solid fa-server"></i> Node.js</span>
+            <span><i class="fa-solid fa-chart-bar"></i> Power BI</span>
+        </div>
     </section>
 
     <!-- PROJECTS -->
@@ -114,13 +109,44 @@
 
         <div class="projects-grid">
 
+            <!-- HousePriceAI -->
             <div class="project-card reveal">
-                <img src="assets/city explorer image 1 .png" alt="Smart City Explorer">
+                <a href="https://house-price-ai-beta.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-img-wrap">
+                    <img src="assets/House_price_ss.png" alt="HousePriceAI">
+                </a>
+                <div class="project-card-body">
+                    <h3>HousePriceAI</h3>
+                    <p>
+                        End-to-end machine learning app that predicts California house prices
+                        using a Random Forest model. Covers data preprocessing, feature
+                        engineering, and model evaluation — deployed live on Vercel.
+                    </p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Scikit-learn</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Vercel</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://house-price-ai-beta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Smart City Explorer -->
+            <div class="project-card reveal">
+                <a href="https://khushisharma7891.github.io/Smart-City-Explorer-/" target="_blank" rel="noopener noreferrer" class="project-img-wrap">
+                    <img src="assets/smart_city_1.png" alt="Smart City Explorer">
+                </a>
                 <div class="project-card-body">
                     <h3>Smart City Explorer</h3>
                     <p>
-                        Interactive map-based web application to help users explore
-                        nearby services and locations in real time.
+                        Interactive map-based web app that helps users find nearby hospitals,
+                        metro stations, and restaurants using live location markers,
+                        search, and basic route distance display.
                     </p>
                     <div class="project-tags">
                         <span>HTML</span>
@@ -128,35 +154,32 @@
                         <span>JavaScript</span>
                         <span>Leaflet.js</span>
                     </div>
+                    <div class="project-links">
+                        <a href="https://khushisharma7891.github.io/Smart-City-Explorer-/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/Khushisharma7891/Smart-City-Explorer-" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </div>
                 </div>
             </div>
 
+            <!-- Salon Website -->
             <div class="project-card reveal">
-                <img src="assets/salon 1 .jpg" alt="Salon Website">
+                <div class="project-img-wrap no-link">
+                    <img src="assets/salon 1 .jpg" alt="Salon Website">
+                </div>
                 <div class="project-card-body">
                     <h3>Salon Website</h3>
                     <p>
-                        Responsive salon website showcasing services, pricing,
-                        and appointment features with a clean user interface.
+                        Responsive salon website with a clean UI showcasing services,
+                        pricing, and an appointment section. Built with a mobile-first layout.
                     </p>
                     <div class="project-tags">
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>JavaScript</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-card reveal">
-                <img src="assets/code with python 7.png" alt="URL Shortener">
-                <div class="project-card-body">
-                    <h3>URL Shortener</h3>
-                    <p>
-                        Python-based tool to convert long URLs into short, manageable
-                        links — great for usability and sharing.
-                    </p>
-                    <div class="project-tags">
-                        <span>Python</span>
                     </div>
                 </div>
             </div>
@@ -172,11 +195,12 @@
         <div class="experience-item reveal">
             <div class="exp-dot"></div>
             <div class="exp-content">
-                <h3>Python Developer Virtual Internship</h3>
-                <p class="exp-meta">CodeClause &nbsp;·&nbsp; March 2025 – April 2025</p>
+                <h3>Technical Assistant</h3>
+                <p class="exp-meta">Vyas Computer &amp; Academic Institute, Delhi &nbsp;·&nbsp; Dec 2025 – Feb 2026</p>
                 <p>
-                    Worked on Python-based tasks and projects, improving problem-solving skills
-                    and understanding of real-world application development.
+                    Handled day-to-day IT operations including OS installation, software setup,
+                    and hardware troubleshooting. Assisted students and staff with technical
+                    queries and helped run basic computer training sessions.
                 </p>
             </div>
         </div>
@@ -184,14 +208,16 @@
         <div class="experience-item reveal">
             <div class="exp-dot"></div>
             <div class="exp-content">
-                <h3>Academic Project Experience</h3>
-                <p class="exp-meta">Self-directed &nbsp;·&nbsp; 2024 – Present</p>
+                <h3>Python Developer Intern</h3>
+                <p class="exp-meta">CodeClause &nbsp;·&nbsp; Feb 2025 – Apr 2025</p>
                 <p>
-                    Developed multiple projects in web development and Python, focusing on
-                    practical implementation and user-friendly design.
+                    Worked on Python-based development tasks covering programming logic,
+                    string manipulation, and file handling. Built and delivered small projects
+                    that reinforced clean coding habits and problem-solving skills.
                 </p>
             </div>
         </div>
+
     </section>
 
     <!-- EDUCATION -->
@@ -204,25 +230,52 @@
             <p class="edu-university">Galgotias University, Greater Noida</p>
             <span class="edu-period">
                 <i class="fa-regular fa-calendar"></i>
-                2023 – 2026 &nbsp;·&nbsp; Final Year
+                2023 – 2026 &nbsp;·&nbsp;
+            </span>
+        </div>
+
+        <div class="education-card reveal" style="margin-top: 20px;">
+            <h3>Class 12 — CBSE</h3>
+            <p class="edu-university">Delhi</p>
+            <span class="edu-period">
+                <i class="fa-regular fa-calendar"></i>
+                2022
             </span>
         </div>
     </section>
 
-    <!-- CERTIFICATION CARD -->
-     <section id="certification" class="reveal">
-        <p class="section-label">My academic background</p>
-        <h2>Certification</h2>
+    <!-- CERTIFICATIONS -->
+    <section id="certification" class="reveal">
+        <p class="section-label">Credentials</p>
+        <h2>Certifications</h2>
 
         <div class="education-card reveal">
-             <h3>Diploma in Computer Applications</h3>
-              <p class="edu-university">Vyas Computer & Academic Education, Delhi</p>
-              <p class="edu-skills">MS Office · Tally · DTP · Internet Applications</p>
-              <span class="edu-period">
-                    <i class="fa-regular fa-calendar"></i>
-                    2022 – 2023
-              </span>
-         </div>
+            <h3>Diploma in Computer Applications</h3>
+            <p class="edu-university">Vyas Computer &amp; Academic Institute, Delhi</p>
+            <p class="edu-skills">MS Office · Advanced Excel · Tally · MIS</p>
+            <span class="edu-period">
+                <i class="fa-regular fa-calendar"></i>
+                2022 – 2023
+            </span>
+        </div>
+
+        <div class="education-card reveal" style="margin-top: 20px;">
+            <h3>Data Visualization using Power BI</h3>
+            <p class="edu-university">Great Learning</p>
+            <span class="edu-period">
+                <i class="fa-regular fa-calendar"></i>
+                2024
+            </span>
+        </div>
+
+        <div class="education-card reveal" style="margin-top: 20px;">
+            <h3>Python Developer</h3>
+            <p class="edu-university">CodeClause</p>
+            <span class="edu-period">
+                <i class="fa-regular fa-calendar"></i>
+                2025
+            </span>
+        </div>
     </section>
 
     <!-- CONTACT -->
@@ -263,10 +316,10 @@
         </div>
 
         <div class="social-links">
-            <a href="https://github.com/Khushisharma7891" target="_blank">
+            <a href="https://github.com/Khushisharma7891" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-github"></i> GitHub
             </a>
-            <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
+            <a href="https://www.linkedin.com/in/khushi-sharma-6601672b1" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-linkedin"></i> LinkedIn
             </a>
         </div>
@@ -275,10 +328,9 @@
     <!-- FOOTER -->
     <footer>
         <p>© 2025 <span>Khushi Sharma</span>. All rights reserved.</p>
-        <p>Designed & Built with <span>♥</span></p>
+        <p>Designed &amp; Built with <span>♥</span></p>
     </footer>
 
-    <!-- JS -->
     <script src="script.js"></script>
 
 </body>
